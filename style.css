@@ -1,0 +1,775 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    
+}
+.pernav{
+    display: flex;
+    width: 100%;
+}
+.navafter{
+    border: 2px solid black;
+    width: 90%;
+    height: 11vh;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-top: 7px;
+    display: none; 
+    align-items: center;
+    
+}
+.perlogo{
+    position: relative;
+    left: 115px;
+    top: 25px;
+}
+.peroptions1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 150px;
+
+}
+.peroptions1 div{
+    margin: 15px;
+    font-weight: 710;
+    font-size: 90%;
+}
+.peroptions2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 750px;
+
+}
+.peroptions2 div {
+    margin: 15px;
+    font-weight: 540;
+    font-size: 90%;
+}
+.TTS{
+    color: #611F69;
+    border: 2px solid #611F69;
+    border-radius: 5px;
+    padding: 12px 16px;
+}
+.TFF{
+    background-color: #611F69;
+    color: #fff;
+    padding: 12px 16px;
+    border-radius: 5px;
+    font-size: 130%;
+}
+.navlogo{
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.options1{
+    display: flex;
+    border: 2px solid black;
+}
+.options2{
+    display: flex;
+    border: 2px solid black;
+    position: relative;
+    right: 0px;
+}
+
+/*       */
+main{
+    margin-top: 20px;
+}
+
+.p1{
+    text-align: center;
+    font-size: 390%;
+}
+.p2{
+    text-align: center;
+    color: #611F69;
+    font-size: 390%;
+
+}
+.signup{
+    display: flex;
+    height: 15%;
+    justify-content: center;
+    margin: 15px;
+}
+.signupE{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #611F69;
+    color: white;
+    width: 25%;
+    /* padding: 1.1% 0%; */
+    width: 22%;
+    border-radius: 3px;
+    font-weight: 550;
+    font-size: 85%;
+    margin-right: 0.75%;
+
+}
+.google{
+    height: 50px;
+    margin: 5px;
+    border-radius: 2px;
+}
+.signupG{
+    text-align: center;
+    background-color: #4285F4;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 19%;
+    border-radius: 3px;
+    font-weight: 550;
+
+}
+
+
+.videoc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.1) 50%, #F4EDE4 50%);
+}
+.video{
+    margin: 2%;
+}
+.sbold{
+    font-weight: 700;
+}
+.Trust{
+    font-size: 90%;
+    font-weight: 550;
+}
+
+.manylogos{
+    display: flex;
+    justify-content: center;
+    background-color: #F4EDE4;
+}
+.manylogos div {
+    margin: 2%;
+}
+/*            */
+
+.div1{
+    display: flex;
+    background-color: #F4EDE4 ;
+}
+.V1{
+    margin: 50px 110px;
+
+}
+
+.heading{
+    margin: 95px 80px 10px 20px;
+    font-size: 310%;
+}
+
+.hp1{
+    font-size: 110%;
+    margin: 5px 100px 0px 20px;
+    font-weight: 500;
+}
+.a1{
+    display: inline-block;
+    margin: 20px 100px 0px 20px;
+    text-decoration: none;
+    color: #4285F4;
+
+}
+.headingl{
+    font-size: 310%;
+    margin: 95px 110px 10px 110px;
+
+}
+.hpl{
+    font-size: 110%;
+    font-weight: 500;
+    margin: 5px 50px 0px 110px;
+
+}
+.a2{
+    display: inline-block;
+    margin: 20px 110px 0px 110px;
+    text-decoration: none;
+    color: #4285F4;
+
+}
+.div2{
+    display: flex;
+    background-color: #F4EDE4 ;
+
+}
+.div3{
+    display: flex;
+    background-color: #F4EDE4 ;
+}
+/*        */
+.UP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.TeamsL{
+    font-size: 280%;
+    margin: 108px 0px 20px;
+    font-weight: 600;
+}
+.second{
+    font-weight: 500px;
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+.boxl{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 15px;
+
+}
+.boxl1{
+    color: white;
+    background-color: #611F69;
+    padding: 18px;
+    width: 20%;
+    font-weight: 500;
+    font-size: 90%;
+    border: 2px solid #611F69;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.boxl2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #611F69;
+    border: 2px solid #611F69 ;
+    border-radius: 5px;
+    width: 14%;
+    font-weight: 500;
+
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.numbers div{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.numbers div h1{
+    font-size: 350%;
+    color: #611F69;
+    font-weight: 600;
+}
+.lv{
+    width: 46%;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+    overflow: hidden;
+    padding: 0px;
+}
+.ld{
+    display: flex;
+}
+.lvid{
+    position: relative;
+    left: -160px;
+}
+.MTP{
+    width: 50%;
+}
+.MT{
+    padding: 50px;
+    font-size: 180%;
+    font-weight: 100;
+    font-style: italic;
+}
+.MB{
+    padding: 0px 50px;
+
+}
+.DI{
+    padding: 0px 50px;
+    
+}
+.al{
+    padding: 0px 50px;
+
+}
+.AW{
+    padding: 20px;
+    margin: 40px 0px 10px 0px;
+    color: #404040;
+    text-align: center;
+    font-size: 90%;
+}
+
+.F1st{
+    background-color: #F4EDE4;
+    text-align: center;
+    border: 2px solid transparent;
+    padding-bottom: 70px;
+
+}
+
+.F2nd{
+    display: flex;
+    justify-content: space-evenly;
+}
+.F1st h1{
+    margin: 60px;
+    font-size: 190%;
+}
+
+.F2nd div{
+    background-color: #fff;
+    width: 20%;
+}
+
+.F2nd div img {
+    padding: 10px;
+}
+.F2nd div :nth-child(3){
+    font-size: 120%;
+    font-weight: 600;
+    margin: 10px;
+
+}
+.F2nd div :nth-child(4){
+    color: #4285F4;
+    font-size: 90%;
+    font-weight: 500;
+}
+
+.LH{
+    background-color: #4A154B;
+    color: white;  
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 150%;
+    /* border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%; */
+}
+.LH h1{
+    margin-top: 110px;
+    font-weight: 600;
+}
+.LH div{
+    display: flex;
+    margin: 15px;
+    
+}
+.try{
+
+    color: #4A154B;
+    background-color: white;
+    font-size: 60%;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 15px 45px;
+}
+.talk{
+    color: white;
+    border: white;
+    font-size: 60%;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 15px 45px;
+
+}
+/* .LH{
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+} */
+
+/*      */
+
+.FC{
+    display: flex;
+    margin: 50px 0px;
+    justify-content: space-evenly;
+}
+.ComLast{
+    display: flex;
+    border-top: #404040;
+    justify-content: center;
+}
+.ComLast :nth-child(1) div {
+    display: flex;
+}
+.h3 a{
+    display: block;
+    margin: 20px 0px;
+    width: 40%;
+    text-decoration: none;
+    font-size: 90%;
+    color: #404040;
+}
+.LLU{
+    display: flex;
+    border-top: 1px solid #404040;
+    padding: 20px 0px 30px 0px;
+}
+.ll{
+    width: 50%;
+    position: relative;
+    right: 0px;
+    margin-left: 10px;
+    color: #404040;
+    font-size: 90%;
+}
+.LL{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.LL p{
+    margin: 2px;
+    color: #404040;
+    font-size: 90%;
+}
+
+@media screen and (max-width: 480px) {
+    
+    body{
+        
+        width: 100%;
+        overflow: hidden;
+    }
+    .hello{
+        width: 80px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .pernav{
+        position: relative;
+        width: 100px;
+        left: -260px;
+        height: 5px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .icons{
+        display: none;
+
+    }
+    .TTS , .TFF{
+        display: none;
+        position: relative;
+        top: 50px;
+        width: 100px;
+        right: 50px;
+        height: 60px;
+        font-size: 10px;
+    }
+    .peroptions1{
+        display: none;
+    }
+    .p1, .p2{
+        font-size: 50px;
+    }
+    .signup{
+        display: block;
+    }
+    .video{
+        width: 10px;
+        
+    }
+    
+    .div1, .div2, .div3{
+        display: block;
+        position: relative;
+        bottom: 200px;
+        width: 100%;
+        padding: 0px;
+    } 
+    .div1 div:nth-child(1){
+        width: 100px;
+        
+    }
+    .div2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .V1{
+        position: relative;
+        right: 110px;
+        bottom: 60px;
+    }
+    .heading, .headingl{
+        font-size: 40px;
+        width: 100%;
+        position: relative;
+        bottom: 150px;
+        margin: 10px;
+
+
+    }
+    .hp1, .hpl{
+        position: relative;
+        bottom: 150px;
+        font-size: 20px;
+        margin: 10px;
+       
+    }
+    .a1, .a2{
+        position: relative;
+        bottom: 150px;
+
+    }
+    .V12{
+        position: relative;
+        bottom: 210px;
+
+    }
+    .headingl1{
+        position: relative;
+        bottom: 250px;
+
+
+    }
+    .hpl1{
+        position: relative;
+        bottom: 250px;
+
+    }
+    .a21{
+        position: relative;
+        bottom: 250px;
+
+    }
+    .V13{
+        position: relative;
+        bottom: 260px;
+
+
+    }
+    .headinglp{
+        position: relative;
+        bottom: 280px;
+
+
+    }
+    .lhp{
+        position: relative;
+        bottom: 280px;
+
+
+    }
+    .a1hp{
+        position: relative;
+        bottom: 280px;
+
+
+    }
+    .video{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: -200px;
+        top: -130px;
+    }
+    video{
+        width: 400px;
+        margin: 0px;
+    }
+    main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px;
+    }
+    .l123{
+        width: 100%;
+    }
+    .signupE{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #611F69;
+        color: white;
+        font-weight: 550;
+        font-size: 85%;
+        margin: 5px;
+        height: 60px;
+    }
+    .signupG{
+        width: 100%;
+        text-align: center;
+        background-color: #4285F4;
+        color: white;
+        display: flex;
+        align-items: center;
+        border-radius: 3px;
+        font-weight: 550;
+    }
+    .Trust{
+        position: relative;
+        bottom: 250px;
+    }
+    .manylogos div{
+        flex-wrap: wrap;
+    }
+    .manylogos div img {
+        width: 50px;
+        position: relative;
+        bottom: 200px;
+
+    }
+    .UP{
+        position: relative;
+        bottom: 550px;
+        background-color: #fff;
+
+    }
+    .boxl{
+        display: block;
+        justify-content: center;
+    }
+    .boxl1{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: 6px;
+
+    }
+    .boxl2{
+        padding: 8px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: 6px;
+    }
+
+    .TeamsL{
+        margin-top: 20px 15px;
+    }
+    .numbers{
+        position: relative;
+        bottom: 500px;
+        font-size: 20px;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        height: 200px;
+    }
+    .numbers div{
+        justify-content: center;
+        width: 30%;
+        font-size: 60%;
+    }
+    .numbers div p {
+        margin: 10px;
+    }
+    .ld{
+        display: block;
+        position: relative;
+        bottom: 500px;
+        padding: 0px;
+    }
+    .lv{
+        width: 500px;
+    }
+    .lv video{
+        width: 500px;
+    }
+    .MTP{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .AW{
+        position: relative;
+        bottom: 500px;
+    }
+    footer{
+        position: relative;
+        bottom: 500px;
+
+    }
+    .F2nd div{
+        
+        width: 500px;
+        border: 1px solid #404040;
+        margin: 15px;
+    }
+    .F2nd{
+        flex-wrap: wrap;
+    }
+    .LH{
+       
+        padding-bottom: 380px;
+    }
+    .try, .talk{
+        margin: 100px;    
+    }
+    .FC{
+        justify-content: space-evenly;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .full{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .h3{
+        padding: 12px;
+        width: 200px;
+    }
+    .more{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 100%;
+    }
+    .LLU{
+        border: 2px solid hotpink;
+        flex-direction: column;
+    }
+    .LL{
+        border: 2px solid rebeccapurple;
+        width: 100%;
+    }
+    .ll{
+        width: 100%;
+    }
+    
+    
+  }
